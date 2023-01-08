@@ -135,7 +135,7 @@ footer img {
 
 @media (max-width: 850px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   .mainImage>img {
     width: 20em;
@@ -145,7 +145,7 @@ footer img {
 
 @media (max-width: 650px) {
   body {
-    font-size: 8px;
+    font-size: 12px;
   }
   .mainImage>img {
     width: 15em;
