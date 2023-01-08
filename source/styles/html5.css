@@ -75,12 +75,12 @@ header a {
   -webkit-text-stroke: 1.5px;
 }
 
-nav>div>div>a {
+nav>div>a {
   font-weight: bolder;
   padding-left: 1.5em;
   padding-right: 1.5em;
   font-size: 1.2em;
-  overflow: clip;
+  text-align: center;
 }
 
 section>div>a {
@@ -100,6 +100,7 @@ h1 {
 div.navPanel {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 section {
@@ -130,4 +131,40 @@ footer p {
 
 footer img {
   width: 2em;
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 12px;
+  }
+  .mainImage>img {
+    width: 20em;
+    border-radius: 12em 1.6em 12em 1.6em;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 8px;
+  }
+  .mainImage>img {
+    width: 15em;
+    border-radius: 9em 1.2em 9em 1.2em;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 6px;
+  }
+  .mainImage>img {
+    width: 15em;
+    border-radius: 9em 1.2em 9em 1.2em;
+  }
+  .mainImage {
+    justify-content: start;
+  }
+  section {
+    font-size: 50%;
+  }
 }
